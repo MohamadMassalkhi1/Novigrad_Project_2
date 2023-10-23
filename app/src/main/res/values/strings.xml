@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Novigrad Project</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="registration_activity_label">Registration Activity</string>
+    <string name="client_activity_label">Client Activity</string>
+    <string name="employee_activity_label">Employee Activity</string>
+    <string name="welcome_activity_label">Welcome Activity</string>
+    <string name="login_activity_label">Login Activity</string>
+    <string name="title_Login">Login Activity</string>
+
+    <string-array name="role_array">
+        <item>Employee</item>
+        <item>Client</item>
+        <item>Admin (cannot create a new Admin)</item>
+    </string-array>
+</resources>
