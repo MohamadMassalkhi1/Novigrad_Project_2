@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- activity_admin_dashboard.xml -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -12,21 +11,37 @@
         android:text="Bienvenue, Administrateur"
         android:textSize="18sp"
         android:layout_gravity="center"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp" />
 
     <Button
+        android:id="@+id/btnAddServices"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gérer les services"
-        android:id="@+id/btnManageServices"
         android:layout_gravity="center"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:text="Ajouter des services" />
 
     <Button
+        android:id="@+id/btnModifyServices"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gérer les comptes"
-        android:id="@+id/btnManageAccounts"
         android:layout_gravity="center"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:text="Modifier des services" />
+
+    <Button
+        android:id="@+id/btnDeleteServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Supprimer des services" />
+
+    <Button
+        android:id="@+id/btnViewServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Afficher les services existants" />
 </LinearLayout>

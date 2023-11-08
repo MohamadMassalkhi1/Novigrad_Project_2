@@ -67,4 +67,10 @@ dependencies {
     implementation("com.google.firebase:firebase-database")
 
 
+    testImplementation("org.junit.jupiter:junit-jupiter:5.7.2")
+
+
+    testImplementation("org.mockito:mockito-core:3.12.4")
+
+
 }

@@ -9,6 +9,7 @@
     <string name="welcome_activity_label">Welcome Activity</string>
     <string name="login_activity_label">Login Activity</string>
     <string name="title_Login">Login Activity</string>
+    <string name="admin_activity_label">Admin</string>
 
     <string-array name="role_array">
         <item>Employee</item>

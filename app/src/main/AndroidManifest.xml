@@ -62,6 +62,29 @@
         </activity>
 
 
+        <activity
+            android:name=".AddServiceActivity"
+            android:theme="@style/Theme.NovigradProject">
+        </activity>
+
+        <activity
+            android:name=".ModifyServiceActivity"
+            android:theme="@style/Theme.NovigradProject">
+        </activity>
+
+        <activity
+            android:name=".ViewServicesActivity"
+            android:theme="@style/Theme.NovigradProject">
+        </activity>
+
+        <activity
+            android:name=".DeleteServiceActivity"
+            android:theme="@style/Theme.NovigradProject">
+        </activity>
+
     </application>
+
+
+
 
 </manifest>
